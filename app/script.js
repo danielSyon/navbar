@@ -19,7 +19,7 @@
     .config(function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/Book/:bookId', {
-                templateUrl: 'Views/Home/book.cshtml',
+                templateUrl: '/render/GetHtml?view=book',
                 controller: 'BookController',
                 resolve: {
                     // I will cause a 1 second delay
@@ -31,7 +31,7 @@
                 }
             })
             .when('/Book/:bookId/ch/:chapterId', {
-                templateUrl: 'Views/Home/chapter.cshtml',
+                templateUrl: '/render/GetHtml?view=chapter',
                 controller: 'ChapterController'
             });
 
