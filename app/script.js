@@ -41,7 +41,7 @@
                 templateUrl: "partials/drivers.html",
                 controller: "driversController",
             }).
-                when("/formula1/:id", {
+                when("/drivers/:id", {
                     templateUrl: "partials/driver.html",
                     controller: "driverController",
                 })
