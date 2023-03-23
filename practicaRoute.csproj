@@ -146,6 +146,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="ControllersNg\moduleControllers.js" />
+    <Content Include="Directive\moduleDirective.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -752,6 +753,8 @@
     <Content Include="Views\Shared\formulario.cshtml" />
     <Content Include="Views\Shared\ejemploTexto.cshtml" />
     <Content Include="Views\Shared\formula1.cshtml" />
+    <Content Include="Views\Shared\ejemploLogin.cshtml" />
+    <Content Include="Views\Shared\directivaPers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

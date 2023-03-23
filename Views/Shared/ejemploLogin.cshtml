@@ -1,0 +1,19 @@
+﻿<h2>ng-click Directive</h2>
+<form name="form">
+    <div ng-hide="isShow">
+        Enter Name:
+        <input type="text" required
+               ng-model="Name" />
+        <br><br>
+        <input type="button"
+               ng-disabled="form.$invalid"
+               ng-click="isShow = true"
+               value="Sign in" />
+    </div>
+    <div ng-show="isShow">
+        Sign in successful.<br>
+        <input type="button"
+               ng-click="isShow = false;Name=''"
+               value="Logout" />
+    </div>
+</form>

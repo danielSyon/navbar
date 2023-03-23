@@ -1,6 +1,11 @@
 ﻿var app = angular.module('ngRouteExample', ['ngRoute',
-                                            'moduleControllers',
-                                            'moduleService'
+    'moduleControllers',
+    'moduleService',
+    'moduleDirective'
+
+
+
+                                            
 ]) .config(function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/Book/:bookId', {
@@ -20,9 +25,19 @@
                 controller: 'CustomerController',
 
             })
+            .when('/directivaPers', {
+                templateUrl: '/render/GetHtml?view=directivaPers',
+              
+
+            })
             .when('/ejemplo', {
                 templateUrl: '/render/GetHtml?view=ejemploTexto',
                 
+
+            })
+            .when('/ejemploLogin', {
+                templateUrl: '/render/GetHtml?view=ejemploLogin',
+
 
             })
             .when('/seleccionCoche', {
