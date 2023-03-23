@@ -8,11 +8,7 @@
                                             
 ]) .config(function ($routeProvider, $locationProvider) {
         $routeProvider
-            .when('/Book/:bookId', {
-                templateUrl: '/render/GetHtml?view=book',
-                controller: 'BookController',
-               
-            }).when('/carritoCompra', {
+            .when('/carritoCompra', {
                 templateUrl: '/render/GetHtml?view=carritoCompra',
                 controller: 'carritoControlador',
 
@@ -28,6 +24,10 @@
             .when('/directivaPers', {
                 templateUrl: '/render/GetHtml?view=directivaPers',
               
+
+            }).when('/textSize', {
+                templateUrl: '/render/GetHtml?view=fontSize',
+
 
             })
             .when('/ejemplo', {

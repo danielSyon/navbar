@@ -755,6 +755,7 @@
     <Content Include="Views\Shared\formula1.cshtml" />
     <Content Include="Views\Shared\ejemploLogin.cshtml" />
     <Content Include="Views\Shared\directivaPers.cshtml" />
+    <Content Include="Views\Shared\fontSize.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
