@@ -149,6 +149,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="partials\driver.html" />
+    <Content Include="partials\drivers.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular-route.min.js" />
@@ -183,6 +185,8 @@
     <Content Include="Views\Shared\seleccionCoche.cshtml" />
     <Content Include="Views\Shared\reloj.cshtml" />
     <Content Include="Views\Shared\formulario.cshtml" />
+    <Content Include="Views\Shared\ejemploTexto.cshtml" />
+    <Content Include="Views\Shared\formula1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

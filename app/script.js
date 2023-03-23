@@ -20,6 +20,11 @@
                 controller: 'CustomerController',
 
             })
+            .when('/ejemplo', {
+                templateUrl: '/render/GetHtml?view=ejemploTexto',
+                
+
+            })
             .when('/seleccionCoche', {
                 templateUrl: '/render/GetHtml?view=seleccionCoche',
                 controller: 'CustomerController',
@@ -28,7 +33,18 @@
                 templateUrl: '/render/GetHtml?view=reloj',
                 controller: 'timeController',
 
-            })
+            }).when('/formula1', {
+                templateUrl: '/render/GetHtml?view=formula1',
+                controller: 'CustomerController',
+
+            }).when("/formula1", {
+                templateUrl: "partials/drivers.html",
+                controller: "driversController",
+            }).
+                when("/formula1/:id", {
+                    templateUrl: "partials/driver.html",
+                    controller: "driverController",
+                })
             .when('/Book/:bookId/ch/:chapterId', {
                 templateUrl: '/render/GetHtml?view=chapter',
                 controller: 'ChapterController'
