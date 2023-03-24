@@ -54,7 +54,7 @@
                      scope.textSize = scope.value;
 
                      scope.$watch("textSize", function (size) {
-                         $document[0].body.style.fontSize = size + scope.unit;
+                         $document[0].getElementById('texto').style.fontSize = size + scope.unit;
 
                         
                      });
